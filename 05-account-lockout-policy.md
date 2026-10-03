@@ -26,7 +26,7 @@ On the client, in an admin Command Prompt, I ran `gpresult /h gpreport.html` and
 ## Plan of Action
 Since removing the Default Domain Policy is not an option, I changed its settings to the lockout and password policies I wanted for the domain. I then deleted my separate Account Lockout and Password Policy GPOs from both the top of the hierarchy and the Group Policy Objects folder.
 
-![Updated Default Domain Policy](screenshots/)
+![Updated Default Domain Policy](screenshots/AccountLockoutPolicy0.png)
 
 ## Validation
 I purposely entered the wrong password 5 times and was locked out.
