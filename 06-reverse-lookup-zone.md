@@ -18,7 +18,7 @@ I checked the DNS Manager on the DC and found no problems with the DNS configura
 1. Created a new Reverse Lookup Zone.
 2. Added a Pointer (PTR) record in that zone pointing to the DC.
 
-![Reverse lookup zone and PTR record](screenshots/)
+![Reverse lookup zone and PTR record](screenshots/NoReverseLookupZone0.png)
 
 ## Validation
 On the client, I ran `nslookup yourdomain.local` and it returned the DC's name.
