@@ -31,7 +31,7 @@ Since removing the Default Domain Policy is not an option, I changed its setting
 ## Validation
 I purposely entered the wrong password 5 times and was locked out.
 
-![Account locked out](screenshots/)
+![Account locked out](screenshots/AccountLockoutPolicy.png)
 
 ## Documentation
 The Default Domain Policy and my Lockout Policy GPO both defined a lockout policy, so they conflicted, and the result was inconsistent. I removed my duplicate GPOs and changed the Default Domain Policy to match the settings I needed.
