@@ -21,7 +21,7 @@ The GPO was conflicting with the Default Domain Policy.
 ## Testing Theory 2
 On the client, in an admin Command Prompt, I ran `gpresult /h gpreport.html` and opened it with `start gpreport.html`. The report showed an account lockout policy, but it was following the Default Domain Policy.
 
-![Report showing Default Domain Policy](screenshots/)
+![Report showing Default Domain Policy](screenshots/AccountLockoutPolicy1.png)
 
 ## Plan of Action
 Since removing the Default Domain Policy is not an option, I changed its settings to the lockout and password policies I wanted for the domain. I then deleted my separate Account Lockout and Password Policy GPOs from both the top of the hierarchy and the Group Policy Objects folder.
