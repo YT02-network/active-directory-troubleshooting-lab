@@ -16,7 +16,7 @@ The GPOs were not configured properly, or were not linked to the proper OUs.
 - I ran `gpresult /h gpreport.html` (from an admin Command Prompt) and opened it with `start gpreport.html`.
 - The report confirmed the right OUs were getting the GPOs, but other OUs like _ADMINS were getting them too.
 
-![GPO report](screenshots/gpo-01-report.png)
+![GPO report](troubleshootingprior.png)
 
 ## Probable Cause 2
 The GPOs were configured properly but were linked at the top of the domain.
