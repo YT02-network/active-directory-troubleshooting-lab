@@ -27,7 +27,7 @@ On the DC server, I opened the DHCP tool and found that the server was no longer
 4. Refreshed the domain. It now shows as authorized with a green check mark.
 5. On the client, ran `ipconfig /release` and `ipconfig /renew`.
 
-![DHCP authorized](screenshots/dhcp-01-authorized.png)
+![DHCP authorized](screenshots/NoReverseLookupZone0.png)
 
 **Result:** The client received the proper configuration.
 
