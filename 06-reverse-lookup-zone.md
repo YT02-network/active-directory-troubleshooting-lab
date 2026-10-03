@@ -23,7 +23,7 @@ I checked the DNS Manager on the DC and found no problems with the DNS configura
 ## Validation
 On the client, I ran `nslookup yourdomain.local` and it returned the DC's name.
 
-![nslookup result](screenshots/)
+![nslookup result](screenshots/NoReverseLookupZone.png)
 
 ## Documentation
 There was no Reverse Lookup Zone, so `nslookup` could not return the server name. I created a Reverse Lookup Zone and added a Pointer record for the DC to fix it. Since this is a virtual lab, turning the server off constantly might have corrupted a file or caused issues with the lookup zone configuration.
