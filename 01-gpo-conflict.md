@@ -16,7 +16,7 @@ The GPOs were not configured properly, or were not linked to the proper OUs.
 - I ran `gpresult /h gpreport.html` (from an admin Command Prompt) and opened it with `start gpreport.html`.
 - The report confirmed the right OUs were getting the GPOs, but other OUs like _ADMINS were getting them too.
 
-![GPO report](troubleshootingprior.png)
+![GPO report](screenshots/troubleshootingprior.png)
 
 ## Probable Cause 2
 The GPOs were configured properly but were linked at the top of the domain.
@@ -24,7 +24,7 @@ The GPOs were configured properly but were linked at the top of the domain.
 ## Testing Theory 2
 In Group Policy Management, I confirmed the GPOs were linked directly under the domain.
 
-![GPOs linked at domain level](AccountLockoutPolicy1.png)
+![GPOs linked at domain level](screenshots/AccountLockoutPolicy1.png)
 
 ## Plan of Action
 - Removed the links from the top of the domain (except the Default Domain Policy).
@@ -36,7 +36,7 @@ In Group Policy Management, I confirmed the GPOs were linked directly under the 
 - Regular user on the client VM: Control Panel access denied.
 - Re-ran `gpresult /h gpreport.html` to confirm.
 
-![Validation](screenshots/gpo-03-validation.png)
+![Validation](screenshots/troubleshootingaftermath.png)
 
 *Note: the report still showed the Control Panel GPO because the report was cached. The GPO is no longer linked to _ADMINS.*
 
