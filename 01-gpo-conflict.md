@@ -24,7 +24,7 @@ The GPOs were configured properly but were linked at the top of the domain.
 ## Testing Theory 2
 In Group Policy Management, I confirmed the GPOs were linked directly under the domain.
 
-![GPOs linked at domain level](screenshots/gpo-02-domain-links.png)
+![GPOs linked at domain level](AccountLockoutPolicy1.png)
 
 ## Plan of Action
 - Removed the links from the top of the domain (except the Default Domain Policy).
