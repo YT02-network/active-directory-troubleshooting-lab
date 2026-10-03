@@ -40,4 +40,4 @@ Every log uses the same format:
 ## About Me
 Aspiring help desk / IT support specialist building hands-on experience with Windows Server and Active Directory. Currently working toward CompTIA A+ and CCNA.
 
-- LinkedIn: [www.linkedin.com/in/yosef-tomas-399556411]
+- LinkedIn: www.linkedin.com/in/yosef-tomas-399556411
